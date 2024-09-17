@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="midterm.css">
+</head>
+<body>
+    <div class="header">
+        <img class="logo" src="https://play-lh.googleusercontent.com/Fro4e_osoDhhrjgiZ_Y2C5FNXBMWvrb4rGpmkM1PDAcUPXeiAlPCq7NeaT4Q6NRUxRqo" alt="logo">
+        <h1>Shop DEBUG</h1>
+    </div>
+
+
+    <div class="container">
+        <h1>Nhập thông tin </h1>
+        <form id="frm">
+            <label>
+                Image of product
+                <input type="text" id="img-name">
+            </label>
+            <label>
+               Product Name
+                <input type="text" id="pr-name">
+            </label>
+            <label>
+                New Price
+                <input type="number" id="nprice">
+            </label>
+            <label>
+                Old Price
+                <input type="number" id="oprice">
+            </label>
+            <label>
+                Type
+                <input type="text" id="type">
+            </label>
+            <label>
+                Code product
+                <input type="text" id="code">
+            </label>
+
+            <div id="button-add">
+                <button type="button" onclick="add()">Add</button>
+            </div>
+        </form>
+    </div>
+
+    <div id="container-card">
+        <img src="" id="img-pr" alt="...">
+        <div class="body-card">
+            <h2 id="name-pr"></h2>
+            <p id="code-pr"></p>
+            <p id="pr"></p>
+            <div>
+                <button id="buy">Đặt mua</button>
+            </div>
+        </div>
+    </div>
+    <script src="midterm.js"></script>
+
+</body>
+</html>
